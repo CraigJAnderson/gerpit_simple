@@ -34,12 +34,10 @@ awk '{ total += $2} END { print total/NR }' out.fa.rates > out.fa.rates2
 awk '{ total += $1} END { print total/NR }' out.fa.rates > out.fa.rates3
 paste ${WRKDIR}/input/${JOB}.bed out.fa.rates3 out.fa.rates2 >> ${WRKDIR}/output/${JOB}.all_mean.gerp
 
-############
-############
-#Hash this out if you want to keep intermediate files
-
 #tidy up
 cd ..
+
+#Hash this out if you want to keep intermediate files
 rm -r ${WRKDIR}/output/${JOB}
 ##end script
 
