@@ -2,7 +2,7 @@
 
 Simplified version of gerpit- requires a bed file in input folder, as well as a 4d tree and hal alignment in src folder.
 
-There is a toy bed file and toy output data in these folders, respectively.
+There is a toy bed file and affiliated output data in these folders, respectively.
 
 IMPORTANT: 1 bed feature per input file
 
