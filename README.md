@@ -12,7 +12,7 @@ All the intermediate files are retained for the toy example- hash out line 43 of
 #set bin as path to GERPplusplus
 #Run as:
 cd ${WRKDIR}
-${WRKDIR}/gerpit.sh 15001 C3H_HeJ ${BIN}/GERPplusplus ${WRKDIR}/src/1509_ca.hal ${WRKDIR}
+${WRKDIR}/gerpit.sh test_15001 C3H_HeJ ${BIN}/GERPplusplus ${WRKDIR}/src/1509_ca.hal ${WRKDIR}
 
 #specifically, the input is:
 #JOB=$1 : Job number or the name used for the input and output files
