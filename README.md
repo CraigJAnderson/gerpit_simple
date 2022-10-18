@@ -2,7 +2,11 @@
 
 Simplified version of gerpit- requires a bed file in input folder, as well as a 4d tree and hal alignment in src folder.
 
-There is a toy bed file and affiliated output data in these folders, respectively.
+There is a toy bed file and affiliated output data in these folders, respectively. There's a conda environment to run everything as I have.
+<pre>
+conda env create --name cactus --file=environment.yml
+conda activate cactus
+</pre>
 
 IMPORTANT: 1 bed feature per input file
 
