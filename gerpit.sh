@@ -40,6 +40,6 @@ paste ${WRKDIR}/input/${JOB}.bed out.fa.rates3 out.fa.rates2 >> ${WRKDIR}/output
 
 #tidy up
 cd ..
-#rm -r ${HANDLE}_${JOB}
+rm -r ${WRKDIR}/output/${JOB}
 ##end script
 
