@@ -3,6 +3,8 @@
 Simplified version of gerpit- requires a bed file in input folder, as well as a 4d tree and hal alignment in src folder.
 
 IMPORTANT: 1 bed feature per input file
+
+All the intermediate files are retained for the toy example- hash out line 43 of gerpit.sh if you want to keep the ones you generate
 <pre>
 #set WRKDIR variable as path with gerpit
 #set bin as path to GERPplusplus
